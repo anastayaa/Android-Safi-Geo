@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#375D78</color>
+    <color name="colorPrimaryDark">#2e4e64</color>
+    <color name="colorAccent">#375D78</color>
+    <color name="btnrmail">#FD4886</color>
+    <color name="grey">#bfbfbf</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="lightgrey">#eeeeee</color>
+
+
+    <color name="blackOlive">#39393F</color>
+    <color name="tagBackground">#EBF0F6</color>
+    <color name="bg_tag_default">#7cd167</color>
+
+    <color name="yellow">#ffee00</color>
+
+</resources>

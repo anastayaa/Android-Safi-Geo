@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/search_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true">
+
+
+
+
+        <LinearLayout
+                android:id="@+id/layout_chatbox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:minHeight="48dp"
+                android:background="#ffffff"
+                >
+
+            <mabbas007.tagsedittext.TagsEditText
+                xmlns:TagsEditText="http://schemas.android.com/apk/res-auto"
+                android:textColor="@color/colorPrimary"
+                TagsEditText:allowSpaceInTag="false"
+                TagsEditText:tagsCloseImageRight="@drawable/tag_close"
+                TagsEditText:tagsBackground="@drawable/square"
+                TagsEditText:tagsTextColor="@color/blackOlive"
+                TagsEditText:tagsTextSize="@dimen/defaultTagsTextSize"
+                TagsEditText:tagsCloseImagePadding="@dimen/defaultTagsCloseImagePadding"
+                android:id="@+id/searchTagsEditText"
+                android:hint="Enter Tags..."
+                android:background="@android:color/transparent"
+                android:layout_gravity="center"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:scrollbars="horizontal"
+                android:scrollHorizontally="true"
+                android:maxLines = "2"/>
+
+
+        </LinearLayout>
+
+    </android.support.design.widget.AppBarLayout>
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/search_app_bar"
+        android:background="?android:attr/listDivider" />
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_recycle_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/divider2"
+
+        />
+
+</RelativeLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "464533429539",
+    "firebase_url": "https://safigeo-6f5be.firebaseio.com",
+    "project_id": "safigeo-6f5be",
+    "storage_bucket": "safigeo-6f5be.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464533429539:android:767de099fc23534a",
+        "android_client_info": {
+          "package_name": "com.example.simo.safigeo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464533429539-0ut2eoobo1vp9m9c2nf0iq1590lhaagd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.simo.safigeo",
+            "certificate_hash": "c6cc1b7f4851ba98200577dc5026ac812ea9ea83"
+          }
+        },
+        {
+          "client_id": "464533429539-hq6j5u67vpn2dkpnonqh7cnunt43vtnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCCgOVoCUDhBJJ3ntLPt89cfgaiMhuY7AM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464533429539-hq6j5u67vpn2dkpnonqh7cnunt43vtnh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
